@@ -20,5 +20,4 @@ Make sure the scripts.yaml is referred in the /homeassistant/configuration.yaml 
 
 **Configuration:**
 
-Show where they need to insert their specific HRV IP address or API token.
-
+While adding the getAir integration you will be able to enter credentials from your getAir Family account. If you don't have one yet, you'll need to create it. Contact getAir support if in trouble.
