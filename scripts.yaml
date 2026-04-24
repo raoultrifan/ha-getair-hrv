@@ -1,0 +1,25 @@
+getair_speed_increase:
+  alias: "getAir Speed +"
+  sequence:
+    - service: number.set_value
+      target:
+        entity_id: number.getair_comfortcontrol_pro_bt_fan_speed_2
+      data:
+        value: >
+          {{ [((states('number.getair_comfortcontrol_pro_bt_fan_speed_2') | float) + 0.5) | round(1), 4.0] | min }}
+    - service: homeassistant.update_entity
+      target:
+        entity_id: number.getair_comfortcontrol_pro_bt_fan_speed_2
+
+getair_speed_decrease:
+  alias: "getAir Speed -"
+  sequence:
+    - service: number.set_value
+      target:
+        entity_id: number.getair_comfortcontrol_pro_bt_fan_speed_2
+      data:
+        value: >
+          {{ [((states('number.getair_comfortcontrol_pro_bt_fan_speed_2') | float) - 0.5) | round(1), 0.0] | max }}
+    - service: homeassistant.update_entity
+      target:
+        entity_id: number.getair_comfortcontrol_pro_bt_fan_speed_2

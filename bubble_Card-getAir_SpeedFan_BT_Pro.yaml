@@ -1,0 +1,113 @@
+type: custom:bubble-card
+card_type: cover
+entity: number.getair_comfortcontrol_pro_bt_fan_speed_2
+name: getAir SmartFan
+show_icon: true
+show_attribute: false
+show_state: false
+card_layout: normal
+rows: 1.719
+scrolling_effect: false
+main_buttons_position: default
+main_buttons_full_width: true
+icon: mdi:hvac
+icon_down: mdi:fan-chevron-down
+icon_up: mdi:fan-chevron-up
+open_service: script.getair_speed_increase
+open_data:
+  entity_id: script.getair_speed_increase
+close_service: script.getair_speed_decrease
+close_data:
+  entity_id: script.getair_speed_decrease
+sub_button:
+  main:
+    - entity: select.getair_comfortcontrol_pro_bt_ventilation_mode_2
+      sub_button_type: select
+      name: Modes
+      show_name: false
+      show_state: true
+      show_arrow: false
+  bottom:
+    - entity: sensor.getair_comfortcontrol_pro_bt_fan_speed_2
+      name: Speed
+      show_state: true
+      show_name: false
+      icon: mdi:fan
+      show_attribute: false
+    - entity: sensor.getair_comfortcontrol_pro_bt_indoor_temperature_2
+      name: Temperature
+      show_state: true
+      show_name: false
+      shwo_icon: false
+      show_attribute: false
+    - name: "0.5"
+      show_name: true
+      tap_action:
+        action: call-service
+        service: number.set_value
+        data:
+          entity_id: number.getair_comfortcontrol_pro_bt_fan_speed_2
+          value: 0.9
+    - name: "1"
+      show_name: true
+      show_icon: false
+      tap_action:
+        action: call-service
+        service: number.set_value
+        data:
+          entity_id: number.getair_comfortcontrol_pro_bt_fan_speed_2
+          value: 1
+    - name: "1.5"
+      show_name: true
+      show_icon: false
+      tap_action:
+        action: call-service
+        service: number.set_value
+        data:
+          entity_id: number.getair_comfortcontrol_pro_bt_fan_speed_2
+          value: 1.5
+    - name: "2"
+      show_name: true
+      show_icon: false
+      tap_action:
+        action: call-service
+        service: number.set_value
+        data:
+          entity_id: number.getair_comfortcontrol_pro_bt_fan_speed_2
+          value: 2
+    - name: "2.5"
+      show_name: true
+      show_icon: false
+      tap_action:
+        action: call-service
+        service: number.set_value
+        data:
+          entity_id: number.getair_comfortcontrol_pro_bt_fan_speed_2
+          value: 2.5
+    - name: "3"
+      show_name: true
+      show_icon: false
+      tap_action:
+        action: call-service
+        service: number.set_value
+        data:
+          entity_id: number.getair_comfortcontrol_pro_bt_fan_speed_2
+          value: 3
+    - name: "4"
+      show_name: true
+      show_icon: false
+      tap_action:
+        action: call-service
+        service: number.set_value
+        data:
+          entity_id: number.getair_comfortcontrol_pro_bt_fan_speed_2
+          value: 4
+grid_options:
+  columns: 24
+  rows: 1.719
+tap_action:
+  action: call-service
+  service: number.set_value
+  data:
+    entity_id: number.getair_comfortcontrol_pro_bt_fan_speed_2
+    value: 0
