@@ -2,9 +2,6 @@
 
 DOMAIN = "getair"
 
-CONF_USERNAME = "username"
-CONF_PASSWORD = "password"
-
 AUTH_URL = "https://auth.getair.eu"
 API_URL = "https://be01.ga-cc.de"
 CLIENT_ID = "7jPuzDmLiKFF6oPtvsFUhBkyPahA7Lh5"
