@@ -10,11 +10,9 @@ getAir REST-API will need to be installed. Also, you may need to install HACS, b
 
 **Installation:**
 
-Unzip the folder, then copy the information from _**script.yaml**_ file in the ***/homeassistant/scripts.yaml*** file. Place all the .py files from the ***"getAir"*** folder in the **/*homeassistant/custom_components*** folder from your Home Assistant machine. On your Dashboard, you can use the _**bubble_Card-getAir_SpeedFan_BT_Pro.yaml**_ or you can easily make your own with a mushroom-card or any other card, as per your liking.
+Make sure all the .py files reside in the **/*homeassistant/custom_components/getAir*** folder from your Home Assistant machine. Copy the information from _**script.yaml**_ file in the ***/homeassistant/scripts.yaml*** file.  On your Dashboard, you can use the _**bubble_Card-getAir_SpeedFan_BT_Pro.yaml**_ or you can make your own with a mushroom-card or any other card, as per your liking.
 
 Make sure the _**scripts.yaml**_ is referred in the _**/homeassistant/configuration.yaml file**_, something like: ***script: !include scripts.yaml*** should be there; if not, add such a line yourself.
-
-_**const.py**_ contains a CLIENT_ID record, where Client ID was taken from the PDF documentation published by getAir on their REST-API. This ID might get changed by getAir, so make sure you change this record according to the REST-API.
 
 _**number.py**_ contains the code for setting Fan Speeds (from 0 to 4, increments of 0.5), while _**select.py**_ (Heat Recovery Ventilation, Ventilate from Left to Right or vice-versa and Boost) has the code for setting the Modes properly.
 
