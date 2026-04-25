@@ -10,9 +10,11 @@ getAir REST-API will need to be installed. Also, you may need to install HACS, b
 
 **Installation:**
 
-Unzip the folder, then copy the information from script.yaml file into the ***/homeassistant/scripts.yaml*** file. Place all the .py files from the ***"getAir"*** folder in the **/*homeassistant/custom_components*** folder from your Home Assistant machine. On your Dashboard, you can use the bubble_Card-getAir_SpeedFan_BT_Pro.yaml or you can easily make your own with a mushroom-card or any other card, as per your liking.
+Unzip the folder, then copy the information from _**script.yaml**_ file in the ***/homeassistant/scripts.yaml*** file. Place all the .py files from the ***"getAir"*** folder in the **/*homeassistant/custom_components*** folder from your Home Assistant machine. On your Dashboard, you can use the _**bubble_Card-getAir_SpeedFan_BT_Pro.yaml**_ or you can easily make your own with a mushroom-card or any other card, as per your liking.
 
-Make sure the scripts.yaml is referred in the /homeassistant/configuration.yaml file, something like: ***script: !include scripts.yaml*** should be there; if not, add yourself such a line.
+Make sure the _**scripts.yaml**_ is referred in the _**/homeassistant/configuration.yaml file**_, something like: ***script: !include scripts.yaml*** should be there; if not, add such a line yourself.
+
+_**const.py**_ contains a CLIENT_ID record, where Client ID was taken from the PDF documentation published by getAir on their REST-API. This ID might get changed by getAir, so make sure you change this record according to the REST-API.
 
 
 **Configuration:**
