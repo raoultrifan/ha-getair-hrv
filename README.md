@@ -12,7 +12,7 @@ You may need to install HACS, bubble-card, button-card, but you can also adapt t
 
 **Installation:**
 
-Unzip the folder, then copy the information from script.yaml file into the ***/homeassistant/scripts.yaml*** file. Place the remaining unzipped files from the ***"getAir"*** folder in the **/*homeassistant/custom\_components*** folder from your Home Assistant machine.
+Unzip the folder, then copy the information from script.yaml file into the ***/homeassistant/scripts.yaml*** file. Place all the .py files from the ***"getAir"*** folder in the **/*homeassistant/custom_components*** folder from your Home Assistant machine. On your Dashboard, you can use the bubble_Card-getAir_SpeedFan_BT_Pro.yaml or you can easily make your own with a mushroom-card or any other card, as per your liking.
 
 Make sure the scripts.yaml is referred in the /homeassistant/configuration.yaml file, something like: ***script: !include scripts.yaml*** should be there; if not, add yourself such a line.
 
