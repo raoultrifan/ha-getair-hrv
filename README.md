@@ -28,6 +28,18 @@ Main bubble-card from the bubble_Card-getAir_SpeedFan_BT_Pro.yaml. You can turn 
 
 Changing operation mode can be easily done from the submenu (Heat Recovery is recommended choice for most cases).
 Main bubble-card from the bubble_Card-getAir_SpeedFan_BT_Pro.yaml.
+
 ![Example of bubble-card on the Dashboard](https://github.com/raoultrifan/HomeAssistant-getAir-HRV/blob/main/Dashboard_Card_02.jpg)
 
+If all good, then the integration will appear in Home Assistant Integration. Restart might be required thoug.
+
+![Example of bubble-card on the Dashboard](https://github.com/raoultrifan/HomeAssistant-getAir-HRV/blob/main/getAir_Integration_.jpg)
+
+Lookup for the getAir entities.
+
+![Example of bubble-card on the Dashboard](https://github.com/raoultrifan/HomeAssistant-getAir-HRV/blob/main/getAir_Entities.png)
+
+getAir  - device info dashboard.
+
+![Example of bubble-card on the Dashboard](https://github.com/raoultrifan/HomeAssistant-getAir-HRV/blob/main/getAir_DeviceInfo.jpg)
 
