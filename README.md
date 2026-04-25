@@ -1,6 +1,6 @@
 **Overview**
 
-This repository includes documentation and source code examples to integrate the getAir REST-API in Home Assistant.
+This repository includes documentation and source code examples to integrate the getAir REST-API in Home Assistant (https://github.com/getaireu/REST-API).
 
 
 **Prerequisites:**
