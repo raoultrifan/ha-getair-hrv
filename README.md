@@ -16,6 +16,7 @@ Make sure the _**scripts.yaml**_ is referred in the _**/homeassistant/configurat
 
 _**const.py**_ contains a CLIENT_ID record, where Client ID was taken from the PDF documentation published by getAir on their REST-API. This ID might get changed by getAir, so make sure you change this record according to the REST-API.
 
+_**number.py**_ contains the code for setting Fan Speeds (from 0 to 4, increments of 0.5), while _**select.py**_ (Heat Recovery Ventilation, Ventilate from Left to Right or vice-versa and Boost) has the code for setting the Modes properly.
 
 **Configuration:**
 
