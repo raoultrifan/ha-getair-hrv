@@ -46,5 +46,5 @@ Lookup for the getAir entities.
 
 getAir  - device info dashboard.
 
-![Example of bubble-card on the Dashboard](https://github.com/raoultrifan/HomeAssistant-getAir-HRV/blob/main/getAir_DeviceInfo.jpg)
+![Example of bubble-card on the Dashboard](/images/getAir_DeviceInfo.jpg)
 
