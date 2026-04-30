@@ -29,20 +29,20 @@ While adding the getAir integration you will be able to enter credentials from y
 
 Main bubble-card from the bubble_Card-getAir_SpeedFan_BT_Pro.yaml. You can turn OFF the getAir SmartFan BT / BT Pro unit by pressing on the main icon (HVAC) or you can turn it ON by choosing the desired fan speed, from level 0.5 to level 4. Changing fan speed status can be done after a 10 seconds waiting time, due to how getAir REST-API operates. Also, speed can be changed from the up / down fan arrows too, in increments of 0.5. Delays of up to 10 seconds are to be expected, due to how the getAir REST-API works.
 
-![Example of bubble-card on the Dashboard](https://github.com/raoultrifan/HomeAssistant-getAir-HRV/blob/main/Dashboard_Card_01.jpg)
+![Example of card on the Dashboard](/images/Dashboard_Card_01.jpg)
 
 Changing operation mode can be easily done from the submenu (Heat Recovery is recommended choice for most cases).
 Main bubble-card from the bubble_Card-getAir_SpeedFan_BT_Pro.yaml.
 
-![Example of bubble-card on the Dashboard](https://github.com/raoultrifan/HomeAssistant-getAir-HRV/blob/main/Dashboard_Card_02.jpg)
+![Example of card on the Dashboard](/images/Dashboard_Card_02.jpg)
 
 If all good, then the integration will appear in Home Assistant Integration. Restart might be required thoug.
 
-![Example of bubble-card on the Dashboard](https://github.com/raoultrifan/HomeAssistant-getAir-HRV/blob/main/getAir_Integration_.jpg)
+![Example of bubble-card on the Dashboard](/images/getAir_Integration_.jpg)
 
 Lookup for the getAir entities.
 
-![Example of bubble-card on the Dashboard](https://github.com/raoultrifan/HomeAssistant-getAir-HRV/blob/main/getAir_Entities.png)
+![Example of bubble-card on the Dashboard](/images/getAir_Entities.png)
 
 getAir  - device info dashboard.
 
