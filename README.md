@@ -1,3 +1,7 @@
+# HA-getAir-HRV: Home Assistant Integration for getAir SmartFan ComfortControl Pro BT / SmartControl HUB
+
+A fully local, HACS-compatible custom component for Home Assistant to control ComfortControl Pro BT / SmartControl HUB for getAir SmartFan Heat Recovery Ventilation units via Wi-Fi.
+
 **Overview**
 
 This repository includes documentation and source code examples to integrate the getAir REST-API in Home Assistant (https://github.com/getaireu/REST-API).
