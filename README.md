@@ -48,3 +48,4 @@ getAir  - device info dashboard.
 
 ![Example of bubble-card on the Dashboard](/images/getAir_DeviceInfo.jpg)
 
+### This integration if for personal use only, not for comercial! If you like it, feel free to [buy me a cofee](https://buymeacoffee.com/raoultrifan) or to [paypal.me](https://paypal.me/raultrifan1).
